@@ -48,7 +48,6 @@
           $error_message = "Invalid operation selected.";
       }
     }
-
   }
 
   function add($x, $y) {
@@ -66,10 +65,8 @@
   function divide($x, $y) {
     return $y != 0 ? $x / $y : "Cannot divide by zero";
   }
-  
   ?>
   
-
   <form method="POST">
     <div class="input_container">
       <label for="Enter the numbers">Enter the numbers</label>
